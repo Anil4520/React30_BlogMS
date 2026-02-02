@@ -1,9 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Card = () => {
+
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg mt-12 mb-5">
-  <img className="w-full" src="https://img.icons8.com/color/512w/person-male.png" alt="Sunset in the mountains"/>
+<Link to='/blog/id'>
+   <div className="max-w-sm rounded overflow-hidden shadow-lg mb-4">
+  <img className="w-full" src="https://img.icons8.com/color/1200/person-male.jpg" alt="dummy image"/>
   <div className="px-6 py-4">
     <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
     <p className="text-gray-700 text-base">
@@ -16,6 +19,7 @@ const Card = () => {
     <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
   </div>
 </div>
+</Link>
   )
 }
 

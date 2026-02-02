@@ -4,12 +4,9 @@ import Navbar from '../navbar/Navbar'
 const Layout = ({children}) => {
   return (
     <>
-    <Navbar/>
-
-    
+   <Navbar/>
     {children}
-   
-   </>
+    </>
   )
 }
 

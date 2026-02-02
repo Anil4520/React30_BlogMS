@@ -5,17 +5,18 @@ import Card from './component/card/Card'
 
 const Home = () => {
   return (
-<Layout>
-<div className='flex flex-wrap justify-center space-x-5 mt-10 '>
-    <Card/> 
-    <Card/>
-    <Card/>
-    <Card/>
-    <Card/>
-    <Card/>
-</div>
- </Layout>
-  
+   <Layout>
+    <div className='mt-20  flex flex-wrap justify-center space-x-6 '>
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
+      <Card/>
+    </div>
+   </Layout>
   )
 }
 
